@@ -1,5 +1,13 @@
 #include <iostream>
 #include <string>
-#include "Food.h"
 using namespace std;
+
+#include "Food.h"
+
+Food::Food()
+{
+	dateProduce = "";
+	numberOfDays = 0;
+}
+
 

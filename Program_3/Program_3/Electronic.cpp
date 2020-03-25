@@ -1,4 +1,10 @@
 #include <iostream>
 #include <string>
-#include "Electronic.h"
 using namespace std;
+
+#include "Electronic.h"
+
+Electronic::Electronic()
+{
+	warrenty = 0;
+}
