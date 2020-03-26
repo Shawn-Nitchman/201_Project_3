@@ -4,7 +4,9 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
+
 
 class Product {
 	public:
@@ -17,7 +19,19 @@ class Product {
 
 		void setTax(double newTax);
 
-		void setDiscount(double discount);
+		void setDiscount(int day);
+
+		string getName();
+
+		int getBarCode();
+
+		double getPrice();
+
+		double getTax();
+
+		double getDiscount();
+
+		void Update(ofstream& outFS);
 
 
 	private:

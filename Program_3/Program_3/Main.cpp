@@ -1,5 +1,6 @@
 #include <iostream>
-//#include <fstream>
+#include <fstream>
+#include <vector>
 using namespace std;
 
 #include "Food.h"
@@ -14,6 +15,13 @@ int main()
 	int userInput = 0;
 	char keepGoing = 'n';
 
+	ofstream outFS;
+	ifstream inFS;
+	
+
+	Food allFood;
+	Electronic allElectronic;
+
 	cout << "Welcome to our supermarket" << endl;
 
 	userInput = menu();
@@ -24,15 +32,44 @@ int main()
 
 		if (userInput == 1)
 		{
-			cout << "entered in 1" << endl;
+			inFS.open("Food.txt");
+			outFS.open("output.txt");
+
+			allFood.ReadData(inFS);
+			allFood.Update(outFS);
+
+			inFS.close();
+			outFS.close();
 		}
+
 		else if (userInput == 2)
 		{
-			cout << "entered in 2" << endl;
+			inFS.open("Electronics.txt");
+			outFS.open("output.txt");
+
+			allElectronic.ReadData(inFS);
+			allElectronic.Update(outFS);
+
+			inFS.close();
+			outFS.close();
 		}
+
 		else if (userInput == 3)
 		{
-			cout << "entered in 3" << endl;
+			inFS.open("Food.txt");
+			outFS.open("output.txt");
+
+			allFood.ReadData(inFS);
+			allFood.Update(outFS);
+
+			inFS.close();
+			inFS.open("Electronics.txt");
+
+			allElectronic.ReadData(inFS);
+			allElectronic.Update(outFS);
+
+			inFS.close();
+			outFS.close();
 		}
 
 		cout << "Back to main menu? [y: yes | n: no]: ";

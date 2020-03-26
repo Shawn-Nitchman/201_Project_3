@@ -1,1 +1,42 @@
-hello world
+----------------Food Inventory---------------------
+Blueberry with barcode: 1234
+It's Price = 5.99 and was produced on 2/13/2017
+Blueberry is 50% off, current price is 3.00
+---------------------------------------------------
+Strawberry with barcode: 23456
+It's Price = 7.99 and was produced on 2/22/2017
+Strawberry is not on sale
+---------------------------------------------------
+Chicken with barcode: 24765
+It's Price = 15.50 and was produced on 2/23/2017
+Chicken is 20% off, current price is 12.40
+---------------------------------------------------
+---------------Electronics Inventory---------------
+Television with barcode: 54321 and Price: 250.00
+Will have a 3  year warranty, and price after taxes is  272.50
+Television has 2 options for payment:
+1- Cash full Price
+2- Pay over 12 months with 1% intrest of 272.50
+With monthly payments of $22.94
+---------------------------------------------------
+Laptop with barcode: 46782 and Price: 1200.00
+Will have a 5  year warranty, and price after taxes is  1308.00
+Laptop has 2 options for payment:
+1- Cash full Price
+2- Pay over 24 months with 1% intrest of 1308.00
+With monthly payments of $55.60
+---------------------------------------------------
+Ipad with barcode: 23461 and Price: 500.00
+Will have a 3  year warranty, and price after taxes is  545.00
+Ipad has 2 options for payment:
+1- Cash full Price
+2- Pay over 12 months with 1% intrest of 545.00
+With monthly payments of $45.87
+---------------------------------------------------
+Playstation with barcode: 87612 and Price: 400.00
+Will have a 3  year warranty, and price after taxes is  436.00
+Playstation has 2 options for payment:
+1- Cash full Price
+2- Pay over 12 months with 1% intrest of 436.00
+With monthly payments of $36.70
+---------------------------------------------------

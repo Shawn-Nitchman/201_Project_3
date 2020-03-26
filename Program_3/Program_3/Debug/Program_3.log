@@ -1,4 +1,5 @@
 ﻿  Electronic.cpp
+C:\Users\shawn\Documents\C++ Lab\Program3\Program_3\Program_3\Electronic.cpp(46,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   Food.cpp
   Main.cpp
   Product.cpp
